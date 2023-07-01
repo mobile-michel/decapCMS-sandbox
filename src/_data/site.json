@@ -1,6 +1,6 @@
 {
     "name": "Eleventy CMS sandbox",
-    "url": "",
+    "url": "https://playful-vacherin-2ec39f.netlify.app/",
     "authorName": "Michel Maillard",
     "authorUrl": "https://michelmaillard.ch/",
     "description": "Eleventy CMS sandbox, Liquid, Pico.css with deploy to Netlify & Decap CMS",
