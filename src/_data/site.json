@@ -1,0 +1,8 @@
+{
+    "name": "Eleventy CMS sandbox",
+    "url": "",
+    "authorName": "Michel Maillard",
+    "authorUrl": "https://michelmaillard.ch/",
+    "description": "Eleventy CMS sandbox, Liquid, Pico.css with deploy to Netlify & Decap CMS",
+    "favicon": "https://11ty.recipes/images/meta/favicon.svg"
+}
