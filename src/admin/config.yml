@@ -1,14 +1,14 @@
-backend:
+backend: # Required
   name: git-gateway
   branch: main
-media_folder: "static/images/uploads"
-public_folder: "/images/uploads"
-collections:
-  - name: "blog" # Used in routes, e.g., /admin/collections/blog
-    label: "Blog" # Used in the UI
-    folder: "_posts/blog" # The path to the folder where the documents are stored
-    create: true # Allow users to create new documents in this collection
-    fields: # The fields for each document, usually in front matter
-      - {name: "title"}
+media_folder: "static/images/uploads" # Required
+public_folder: "/images/uploads" # Required
+collections: # Required
+  - name: "blog" # Required. Used in routes, e.g., /admin/collections/blog
+    label: "Blog" # Required. Used in the UI
+    folder: "_posts/blog" # Required. The path to the folder where the documents are stored
+    create: true # Important. Allow users to create new documents in this collection
+    fields: # Required. The fields for each document, usually in front matter
+      - {name: "title"} # Required
       - {name: "description"}
-      - {name: "body"}
+      - {name: "body"} # Required
