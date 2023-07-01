@@ -6,7 +6,7 @@ public_folder: "/images/uploads" # Required
 collections: # Required
   - name: "blog" # Required. Used in routes, e.g., /admin/collections/blog
     label: "Blog" # Required. Used in the UI
-    folder: "_posts/blog" # Required. The path to the folder where the documents are stored
+    folder: "src/blog" # Required. The path to the folder where the documents are stored
     create: true # Important. Allow users to create new documents in this collection
     fields: # Required. The fields for each document, usually in front matter
       - {name: "title"} # Required
