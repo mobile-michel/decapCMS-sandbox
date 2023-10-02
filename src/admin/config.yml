@@ -55,8 +55,8 @@ collections: # Required
           - label: Agenda Items
             name: items
             widget: list
-            allow_add: false
-            collapsed: false
+            allow_add: true
+            collapsed: true
             fields:
               - { label: Date, name: date, widget: string }
               - { label: Texte, name: texte, widget: string }
