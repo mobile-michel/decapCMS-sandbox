@@ -50,7 +50,7 @@ collections: # Required
               - { label: URL, name: url, widget: string }
       - label: "Agenda"
         name: "agenda"
-        file: "src/_data/agenda.yaml"
+        file: "src/_data/agenda2.yaml"
         fields:
           - label: Agenda Items
             name: items

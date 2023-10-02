@@ -6,6 +6,6 @@ module.exports = function (eleventyConfig) {
             input: "src",
             layouts: "_layouts"
         },
-        templateFormats: ["html", "md", "liquid"]
+        templateFormats: ["html", "md", "liquid", "yaml"]
     };
 };
