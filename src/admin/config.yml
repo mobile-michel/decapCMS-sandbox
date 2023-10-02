@@ -36,17 +36,15 @@ collections: # Required
           - { label: Author URL, name: authorUrl, widget: string }
           - { label: Description, name: description, widget: string }
           - { label: Favicon, name: favicon, widget: string }
-      - name: "agenda"
-        label: "Agenda du club"
-        file: "src/_data/agenda.json"
+      - label: "Navigation"
+        name: "items"
+        file: "src/_data/navigation.yaml"
         fields:
-          - label: Agenda
+          - label: Nav Items
             name: items
             widget: list
-            allow_add: true
+            allow_add: false
             collapsed: false
             fields:
-              - { label: "Date", name: "date", widget: "datetime" }
-              - { label: "Texte", name: "texte", widget: "string" }
-              - { label: "Titre", name: "titre", widget: "string" }
-              - { label: "Description", name: "description", widget: "string" }
+              - { label: Title, name: text, widget: string }
+              - { label: URL, name: url, widget: string }
