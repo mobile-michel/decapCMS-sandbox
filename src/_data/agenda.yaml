@@ -1,6 +1,10 @@
----
 items:
   - date: 2023-10-05
     texte: Jeudi 5 octobre 2023 à 20h
     titre: Cours
     description: Suivi des sujets rapides (moto, voiture, etc), filé (avec matériel).
+  - date: 2023-10-19
+    texte: Jeudi 19 octobre 2023 à 20h
+    titre: Retouche photo
+    description: Retouche image Lightroom ou autre (avec PC portable si vous avez
+      Lightroom installé).
