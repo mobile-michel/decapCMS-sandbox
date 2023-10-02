@@ -8,3 +8,9 @@
 7. Create the blog pages
 8. Create pagination & post navigation for the blog
 9. Add images to the blog
+
+[GitHub repo](https://github.com/mobile-michel/decapCMS-sandbox)
+
+[Netlify deploy](https://playful-vacherin-2ec39f.netlify.app/)
+
+[DecapCMS admin](https://playful-vacherin-2ec39f.netlify.app/admin)
