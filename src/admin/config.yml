@@ -36,3 +36,11 @@ collections: # Required
           - { label: Author URL, name: authorUrl, widget: string }
           - { label: Description, name: description, widget: string }
           - { label: Favicon, name: favicon, widget: string }
+      - name: "agenda"
+        label: "Agenda du club"
+        file: "src/_data/agenda.json"
+        fields:
+          - { label: "Date", name: "date", widget: "datetime" }
+          - { label: "Texte", name: "texte", widget: "string" }
+          - { label: "Titre", name: "titre", widget: "string" }
+          - { label: "Description", name: "description", widget: "string" }
