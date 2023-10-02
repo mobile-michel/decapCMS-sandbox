@@ -8,3 +8,23 @@ items:
     titre: Retouche photo
     description: Retouche image Lightroom ou autre (avec PC portable si vous avez
       Lightroom installé).
+  - date: 2023-11-02
+    texte: Jeudi 2 novembre 2023 à 20h
+    titre: Flash
+    description: Flash studio et cobra (avec matériel).
+  - date: 2023-11-16
+    texte: Jeudi 16 novembre 2023 à 20h
+    titre: Critique
+    description: Critique photo des différentes sorties.
+  - date: 2023-11-17
+    texte: Vendredi 17 au dimanche 19 novembre 2023
+    titre: Festival photo
+    description: Festival international de la photo animalière et de nature à Montier-en-Der (France) à discuter. Plus d'infos sur le [site du festival](https://www.photo-montier.org/)
+  - date: 2023-12-07
+    texte: Jeudi 7 décembre 2023 à 20h
+    titre: À définir
+    description: Le thème de cette séance sera défini prochainement.
+  - date: 2023-12-14
+    texte: Jeudi 14 décembre 2023 à 20h
+    titre: Repas de fin d'année
+    description: Repas canadien
