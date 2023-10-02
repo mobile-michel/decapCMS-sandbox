@@ -40,7 +40,13 @@ collections: # Required
         label: "Agenda du club"
         file: "src/_data/agenda.json"
         fields:
-          - { label: "Date", name: "date", widget: "datetime" }
-          - { label: "Texte", name: "texte", widget: "string" }
-          - { label: "Titre", name: "titre", widget: "string" }
-          - { label: "Description", name: "description", widget: "string" }
+          - label: Agenda
+            name: items
+            widget: list
+            allow_add: false
+            collapsed: false
+            fields:
+              - { label: "Date", name: "date", widget: "datetime" }
+              - { label: "Texte", name: "texte", widget: "string" }
+              - { label: "Titre", name: "titre", widget: "string" }
+              - { label: "Description", name: "description", widget: "string" }
