@@ -9,11 +9,9 @@ collections: # Required
     folder: "src/blog" # Required. The path to the folder where the documents are stored
     create: true # Important. Allow users to create new documents in this collection
     fields: # Required. The fields for each document, usually in front matter
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Description", name: "description", widget: "string" }
-      - { label: "Author", name: "author", widget: "string" }
-      - { label: "Publish Date", name: "date", widget: "datetime" }
-      - { label: "Body", name: "body", widget: "markdown" }
+      - {name: "title"} # Required
+      - {name: "description"}
+      - {name: "body"} # Required
   - name: "settings"
     label: "Settings"
     files:
