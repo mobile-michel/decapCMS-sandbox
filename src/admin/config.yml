@@ -4,6 +4,15 @@ backend: # Required
 media_folder: "static/images/uploads" # Required
 public_folder: "/images/uploads" # Required
 collections: # Required
+  - name: "home" # Required. Used in routes, e.g., /admin/collections/blog
+    label: "Homepage" # Required. Used in the UI
+    folder: "src" # Required. The path to the folder where the documents are stored
+    create: true # Important. Allow users to create new documents in this collection
+    fields: # Required. The fields for each document, usually in front matter
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Description", name: "description", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Body", name: "body", widget: "markdown" }
   - name: "blog" # Required. Used in routes, e.g., /admin/collections/blog
     label: "Blog" # Required. Used in the UI
     folder: "src/blog" # Required. The path to the folder where the documents are stored
