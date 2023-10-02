@@ -43,7 +43,7 @@ collections: # Required
           - label: Agenda
             name: items
             widget: list
-            allow_add: false
+            allow_add: true
             collapsed: false
             fields:
               - { label: "Date", name: "date", widget: "datetime" }
